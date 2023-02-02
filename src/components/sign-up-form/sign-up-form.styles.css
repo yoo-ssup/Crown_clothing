@@ -1,0 +1,8 @@
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+}
+.signup-container h2 {
+  margin: 10px 0;
+}/*# sourceMappingURL=sign-up-form.styles.css.map */

@@ -8,10 +8,10 @@ export const UserContext = createContext({
 });
 
 export const UserProvider = ({ children }) => {
-  const [currentUser, setCurrentUser] = useState(null);
+  const [currentUser, setCurrentUser] = useState(null); //Actual Storage
   const value = { currentUser, setCurrentUser };
 
-  useEffect(()=>{
+  useEffect(()=>{   //Call for the actual storage
     const unsubscribe = onAuthStateChangedListener((user)=>{
       if(user){
         createUserDocumentFromAuth(user);
