@@ -1,6 +1,6 @@
 # Crown_clothing
 
-Crown-clothing is an e-commerce application built using React(React Router,Context,Redux),Firebase(authentication),Firestore(database),SASS(CSS)
+Crown-clothing is an e-commerce application built using React(React Router,Context,Redux), Firebase(authentication), Firestore(database) and SASS(CSS).
 
 # LINK for the live project
 
