@@ -12,9 +12,6 @@ export const UserContext = createContext({
   currentUser: null,
 });
 
-export const USER_ACTION_TYPES = {
-  SET_CURRENT_USER: 'SET_CURRENT_USER',
-};
 
 const INITIAL_STATE = {
   currentUser: null,
@@ -47,8 +44,6 @@ export const UserProvider = ({ children }) => {
 
     return unsubscribe;
   }, []);
-
-  console.log(currentUser);
 
   const value = {
     currentUser,
