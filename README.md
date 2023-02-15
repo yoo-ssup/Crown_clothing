@@ -1,3 +1,11 @@
+# Crown_clothing
+
+Crown-clothing is an e-commerce application built using React(React Router,Context,Redux), Firebase(authentication), Firestore(database) and SASS(CSS).
+
+# LINK for the live project
+
+https://flourishing-pastelito-5df4fa.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
