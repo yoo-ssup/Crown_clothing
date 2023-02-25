@@ -39,7 +39,7 @@ googleProvider.setCustomParameters({
 
 export const auth = getAuth();
 export const signInWithGooglePopup = () =>
-  signInWithPopup(auth, googleProvider);
+  signInWithPopup(auth, googleProvider).catch((error) => alert(error.message));
 export const signInWithGoogleRedirect = () =>
   signInWithRedirect(auth, googleProvider);
 
